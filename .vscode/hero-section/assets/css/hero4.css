@@ -1,0 +1,207 @@
+
+@font-face {
+    font-family: AveenirLTStd65Medium;
+    src: url(../fonts/AvenirLTStd-Medium.otf);
+}
+@font-face {
+    font-family:AveenirLTStd55Light;
+    src: url(../fonts/AvenirLTStd-Light.otf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 1320px;
+    padding: 20px;
+}
+
+
+.img-container{
+    display: flex;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;  
+   
+}
+
+.img-container :hover{
+    transition: 1s;
+box-shadow: 10px 10px 5px #818181;
+}
+.container h2{
+    font-size: 64px;
+   
+
+}
+
+.container p{
+   font-size: 26px;
+ 
+
+color: #252525CC;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+.section{
+    display: flex;
+
+}
+.button a{
+    padding: 18px 48px;
+    background-color: #252525;
+    border-radius: 16px;
+    color: white;
+    text-decoration: none;
+    font-family: AveenirLTStd65Medium;
+}
+.button a:hover{
+    background-color: black;
+}
+.content {
+ 
+    display: flex;
+    padding: 72px;
+    max-width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+
+
+font-size: 4vw;
+font-family: AveenirLTStd65Medium;
+margin-bottom: 32px;
+
+}
+
+
+.content p{
+
+
+font-size: 2vw;
+font-family:AveenirLTStd55Light;
+margin-bottom: 32px;
+color:#252525CC;
+
+}
+
+
+.button{
+  
+    font-family: AvenirLTStd55Roman;
+}
+.number{
+   
+    font-size: 32px;
+    color: #2525258C;
+    font-family:'AveenirLTStd65Medium';
+}
+.part2{
+    margin-top: 88px;
+}
+
+
+@media only screen and (max-width:1024px) {
+    .container{
+        flex-wrap: wrap;   
+        margin: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: flex;   
+    }
+
+    .img-container{
+        max-width: 94%;
+       
+    }
+    .content {
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 100px;
+    }
+
+    .content p{
+        font-size: 25px;
+    }
+    .content h1{
+        font-size: 7vw;
+    }
+  
+ 
+}
+@media screen and (max-width:768px) {
+    .content{
+       
+        padding: 50px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width:430px) {
+    .img-container{
+        max-width: 100%;
+ 
+    }
+    h1{
+        margin-top: 63px;
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        font-size: 36px;
+    }  
+    .container{
+        margin: auto;
+        text-align: center;
+        font-size: 16px;
+    }
+    .content p {
+       
+        font-size: 17px;
+        font-family: AveenirLTStd55Light;
+        margin-bottom: 32px;
+        color: #252525CC;
+
+    }
+    .content {
+       
+        padding: 0px;
+    }
+}
+@media screen and (max-width:320px) {
+    .part2 {
+        text-align:left;
+        margin-top: 88px;
+    }
+
+    .content {
+   
+        padding: 0px;
+    }
+    .button a{
+        
+    padding: 14px 27px;
+    }
+    
+}

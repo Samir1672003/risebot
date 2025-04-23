@@ -1,0 +1,152 @@
+
+@font-face {
+  font-family: AveenirLTStd65Medium;
+  src: url(../fonts/AvenirLTStd-Medium.otf);
+}
+@font-face {
+  font-family: AveenirLTStd55Light;
+  src: url(../fonts/AvenirLTStd-Light.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+}
+h1 {
+  color: #252525;
+  width: 100%;
+  font-family: AveenirLTStd65Medium;
+  font-size: 63px;
+  font-weight: 800;
+  line-height: 80px;
+  text-align: center;
+}
+.button {
+  margin-top: 55px;
+}
+p {
+  color: #252525cc;
+  font-family: AveenirLTStd55Light;
+  line-height: 1.8;
+  text-align: center;
+  font-size: 23px;
+  padding: 24px 0;
+}
+.button a {
+  text-decoration: none;
+  border-radius: 16px;
+  padding: 18px 48px;
+  background-color: #252525;
+  color: #ffffff;
+  font-family: AveenirLTStd65Medium;
+}
+.button a:hover {
+  background-color: black;
+}
+
+.card {
+  width: 316px;
+  height: 288px;
+
+}
+img {
+  height: 100%;
+  border-radius: 20px;
+  padding: 8px;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  margin: 64px auto;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1320px;
+  width: 100%;
+}
+
+
+@media screen and (max-width:1440px) {
+}
+h1 {
+  font-size: 4vw;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .content{
+    width: 48%;
+  }
+  h1 {
+    font-size: 5vw;
+    line-height: 64px;
+  }
+  p {
+    font-size: 1.8vw;
+    padding: 16px 0;
+  }
+
+}
+
+
+
+@media screen and (max-width: 563px) {
+
+  .content{
+    width: 87%;
+   }
+
+  h1 {
+    font-size: 28px;
+    line-height: 64px;
+  }
+  p {
+    margin: auto;
+    font-size: 18px;
+    padding: 16px 0;
+
+}
+
+}
+
+@media only screen and (max-width:320px) {
+ .content{
+  width: 100%;
+ }
+ p {
+  margin: auto;
+  font-size: 5.8vw;
+  padding: 16px 0;
+  width: 100%; 
+}
+.card {
+  width: 290px;
+  height: 280px;
+}
+
+.col {
+
+  margin: 0px 8px;
+  display: flex;
+  justify-content: center;
+}
+}
+
+
+
+

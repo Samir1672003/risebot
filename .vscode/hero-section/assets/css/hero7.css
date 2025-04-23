@@ -1,0 +1,148 @@
+@font-face {
+    font-family: AveenirLTStd55Roman;
+    src: url(../fonts/AvenirLTStd-Heavy.otf);
+}
+@font-face {
+    font-family: AveenirLTStd65Medium;
+    src: url(../fonts/AvenirLTStd-Medium.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: AveenirLTStd65Medium;
+}
+
+.container {
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    max-width: 1320px;
+    justify-content: center;
+}
+
+.content1 h1 {
+    font-family: AveenirLTStd55Roman;
+    font-size: 72px;
+    text-align: left;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 402px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 24px 80px 24px 24px;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-card {
+    padding: 8px;
+}
+
+.c1 {
+    background-image: url(../images/hero7-1.jpeg);
+}
+.c2 {
+    background-image: url(../images/hero7-2.jpeg);
+}
+.c3 {
+    background-image: url(../images/hero7-3.jpeg);
+}
+.c4 {
+    background-image: url(../images/hero7-4.jpeg);
+}
+
+.card .font {
+    font-family: AveenirLTStd55Roman;
+    font-size: 24px;
+    text-align: left;
+}
+
+.text {
+    font-family: AveenirLTStd65Medium;
+    font-size: 18px;
+}
+
+.number {
+    font-family: AveenirLTStd65Medium;
+    color: #25252559;
+    font-size: 40px;
+}
+
+.para {
+    margin-bottom: 24px;
+    font-size: 23px;
+    height: 66px;
+    font-family: AveenirLTStd65Medium;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    width: 25%;
+}
+
+
+@media (max-width: 1024px) {
+
+    .content1 h1 {
+        font-size: 56px;
+        text-align: center;
+    }
+    .col {
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content1 h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .row {
+        gap: 20px;
+    }
+    .col {
+        width: 100%;
+    }
+    .card {
+        height: 350px;
+        padding: 16px 40px 16px 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content1 h1 {
+        font-size: 36px;
+    }
+    .text {
+        font-size: 14px;
+    }
+    .para {
+        font-size: 20px;
+    }
+    .number {
+        font-size: 32px;
+    }
+    .card {
+        height: 300px;
+        padding: 12px 20px 12px 12px;
+    }
+}
